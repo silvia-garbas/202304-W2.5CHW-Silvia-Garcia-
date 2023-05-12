@@ -1,12 +1,12 @@
 {
-  "name": "202304-W2.5CH3-Silvia-Garcia",
+  "name": "202304-W2.5CHW-Silvia-Garcia",
   "version": "1.0.0",
   "description": "The variables start and end are given. Return an array with the contents of the individual numbers. Replace all numbers divisible by three with \"Fizz\" and all numbers divisible by five with \"Buzz\". If a number is divisible by five and three replace it by \"FizzBuzz\".",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "build": "tsc --watch",
-    "test": "jest --watchAll --coverage",
+    "test": "jest --watchAll --coverage --passWithNoTests ",
     "test:prod": "jest --watchAll --coverage --watchAll=false",
     "prepare": "husky install"
   },
