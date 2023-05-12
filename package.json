@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc --watch",
-    "test": "jest --watchAll --coverage --passWithNoTests ",
-    "test:prod": "jest --watchAll --coverage --watchAll=false",
+    "test": "jest --watchAll --coverage ",
+    "test:prod": "jest --watchAll --coverage --watchAll=false  --passWithNoTests",
     "prepare": "husky install"
   },
   "keywords": [],
