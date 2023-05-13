@@ -10,6 +10,7 @@ export const getBoard = (rows: number, cols: number) => {
 };
 getBoard(4, 4)
 
+
 // let arr = [];
 // let rows = 4;
 // let columns = 3;
