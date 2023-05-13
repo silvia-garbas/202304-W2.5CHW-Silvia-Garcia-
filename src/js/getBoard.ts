@@ -1,4 +1,4 @@
-export const getBoard = (rows: number, cols: number) => {
+ export const getBoard = (rows: number, cols: number) => {
   const board: number[][] = [];
   for (let i = 0; i < rows; i++) {
     board[i] = [];
