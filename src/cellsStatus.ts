@@ -1,6 +1,6 @@
 import { getBoard } from "./getBoard.js";
 export const cellsStatus = () => {
-  const board =[
+  const board = [
     [0, 1, 0],
     [1, 0, 0],
     [0, 0, 0],
