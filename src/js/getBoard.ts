@@ -8,7 +8,7 @@ export const getBoard = (rows: number, cols: number) => {
   }
   console.table(board);
 };
-getBoard(4, 3);
+getBoard(4, 4)
 
 // let arr = [];
 // let rows = 4;
