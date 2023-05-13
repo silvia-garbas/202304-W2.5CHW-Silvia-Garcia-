@@ -6,12 +6,15 @@ export const getBoard = (rows: number, cols: number) => {
       board[i][j] = Math.floor(Math.random() * 2);
     }
   }
-  console.table(board);
-};
-getBoard(4, 4)
 
+return board
+//    console.table(board);
+//   console.log(board.length)
+ };
 
-// let arr = [];
+// getBoard(3, 3);
+
+// Let arr = [];
 // let rows = 4;
 // let columns = 3;
 
