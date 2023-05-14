@@ -1,28 +1,16 @@
-export const getBoard = (rows: number, cols: number) => {
+export const getBoard = (row: number, column: number) => {
   const board: number[][] = [];
-  for (let i = 0; i < rows; i++) {
+  for (let i = 0; i < row; i++) {
     board[i] = [];
-    for (let j = 0; j < cols; j++) {
+    for (let j = 0; j < column; j++) {
       board[i][j] = Math.floor(Math.random() * 2);
     }
   }
 
 return board
-//    console.table(board);
-//   console.log(board.length)
+   console.table(board);
+//  
  };
 
-// getBoard(3, 3);
+ getBoard(3, 3);
 
-// Let arr = [];
-// let rows = 4;
-// let columns = 3;
-
-// for (let i = 0; i < rows; i++) {
-//   arr[i] = [];
-
-//   for (let j = 0; j < columns; j++) {
-//     arr[i][j] = Math.floor(Math.random() * 2);
-//   }
-// }
-// console.log(arr);
