@@ -7,9 +7,5 @@ export const getBoard = (row: number, column: number) => {
     }
   }
 
-return board
-
- };
-
-
-
+  return board;
+};
