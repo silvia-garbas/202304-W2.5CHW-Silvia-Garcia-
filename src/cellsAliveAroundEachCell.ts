@@ -1,10 +1,10 @@
 /* eslint-disable complexity */
 /* eslint-disable complerowity */
-export const cellsAliveAroundEachcell = (board) => {
-  const numberOfAlivecellsAroundEachcell = [];
+export const cellsAliveAroundEachCell = (board: number[][]) => {
+  const numberOfAlivecellsAroundEachcell: number [][] = [];
 
   for (let row = 0; row < board.length; row++) {
-    const aliveCellsAround = [];
+    const aliveCellsAround: number [] = [];
     for (let column = 0; column < board[row].length; column++) {
       let aliveCells: number = 0;
       if (
