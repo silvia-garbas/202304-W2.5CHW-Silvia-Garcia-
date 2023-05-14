@@ -8,9 +8,8 @@ export const getBoard = (row: number, column: number) => {
   }
 
 return board
-   console.table(board);
-//  
+
  };
 
- getBoard(3, 3);
+
 
