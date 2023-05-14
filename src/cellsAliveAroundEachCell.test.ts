@@ -44,25 +44,6 @@ describe("Given a cellAliveaAroundEachCell function", () => {
   describe("When it receives a board array like  [[1, 1, 1], [1, 1 , 1], [ 1 , 1 , 1]]", () => {
     test("Then it should return 2", () => {
       const board = [
-       [1, 1, 1], 
-       [1, 1, 1], 
-       [1, 1, 1]]
-
-
-      const expectedOutput = [
-        [3, 5, 3],
-        [5, 8, 5],
-        [3, 5, 3],
-      ];
-
-      const actualOutput = cellsAliveAroundEachCell(board);
-
-      expect(actualOutput).toStrictEqual(expectedOutput);
-    });
-  });
-  describe("When it receives a board array like  [[1, 1, 1], [1, 1 , 1], [ 1 , 1 , 1]]", () => {
-    test("Then it should return 2", () => {
-      const board = [
         [1, 1, 1],
         [1, 1, 1],
         [1, 1, 1],
