@@ -69,7 +69,5 @@ export const cellsAliveAroundEachcell = (board) => {
     numberOfAlivecellsAroundEachcell.push(aliveCellsAround);
   }
 
-  console.log(numberOfAlivecellsAroundEachcell);
-
   return numberOfAlivecellsAroundEachcell;
 };
